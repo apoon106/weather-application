@@ -1,0 +1,84 @@
+h1,
+h3 {
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 70px;
+  position: relative;
+  top: -60px;
+  right: 2%;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 37px;
+  padding-bottom: 7px;
+  border: 2px solid #5ac2f0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  height: 240px;
+}
+
+li {
+  position: relative;
+  top: -130px;
+  line-height: 20px;
+  border: 3px solid #5ac2f0;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span {
+  float: right;
+}
+
+.container {
+  max-width: max-content;
+  margin: 50px auto;
+  padding: 25px 20px;
+  border: 3px solid gray;
+  display: block;
+}
+
+.current-city {
+  position: relative;
+  top: 20px;
+  left: 65%;
+}
+
+.current-city p {
+  position: relative;
+  left: 12%;
+  line-height: 15px;
+}
+
+.current-temperatures {
+  position: relative;
+  top: -155px;
+  left: 20%;
+}
+
+.current-temperatures p {
+  line-height: 15px;
+}
+
+.button {
+  background: #cd91d7;
+  color: white;
+  border: solid #cd91d7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.low {
+  opacity: 0.5;
+  margin-left: 15px;
+}
